@@ -15,7 +15,7 @@
     1. npm install -D tailwindcss
     2. npx tailwindcss init
     3. npm install postcss autoprefixer --save-dev
-    3. create file named "postcss.config.js" with the following content into it
+    4. create file named "postcss.config.js" with the following content into it
             
             module.exports = {
                 plugins: [
@@ -24,7 +24,7 @@
                 ],
             };
 
-    4. Have to following content into file named "index.css"
+    5. Have to following content into file named "index.css"
             
             /* src/styles/tailwind.css */
             @import 'tailwindcss/base';
@@ -33,7 +33,7 @@
 
             /* Your custom styles here */
 
-    4. create file named ".postcssrc" with the following content into it
+    6. create file named ".postcssrc" with the following content into it
             
             {
                 "plugins": {
@@ -41,7 +41,7 @@
                 }
             }
 
-    5. Have to following content into file named "tailwind.config.js"
+    7. Have to following content into file named "tailwind.config.js"
             
             /** @type {import('tailwindcss').Config} */
             module.exports = {
@@ -57,11 +57,13 @@
             },
             plugins: [],
             }
-            
+
 
 ## To install fortawesome in react project
-    1. npm install @fortawesome/free-solid-svg-icons
-    2. npm install @fortawesome/react-fontawesome
+    1. npm install @fontawesome/free-solid-svg-icons
+    2. npm install @fontawesome/react-fontawesome
 
+
+                
 
                 
