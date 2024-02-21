@@ -2,8 +2,8 @@
 
 # food delivery
 
-## To installation of food delivery project in react js there are some steps to follow
-    1. Initialize our project folder > "git init" and push on github
+## To install of food delivery project in React js there are some steps to follow
+    1. Initialize our project folder > "git init" and push on GitHub
     2. npm init
     3. npm install -D parcel
     4. npm install react
@@ -11,11 +11,11 @@
     6. npm install react-router-dom
     7. npx parcel build index.html
 
-## To install tailwindcss in react project
+## To install tailwindcss in the react project
     1. npm install -D tailwindcss
     2. npx tailwindcss init
     3. npm install postcss autoprefixer --save-dev
-    4. create file named "postcss.config.js" with the following content into it
+    4. create a file named "postcss.config.js" with the following content in it
             
             module.exports = {
                 plugins: [
@@ -24,7 +24,7 @@
                 ],
             };
 
-    5. Have to following content into file named "index.css"
+    5. Have to follow content into a file named "index.css"
             
             /* src/styles/tailwind.css */
             @import 'tailwindcss/base';
@@ -33,7 +33,7 @@
 
             /* Your custom styles here */
 
-    6. create file named ".postcssrc" with the following content into it
+    6. create a file named ".postcssrc" with the following content in it
             
             {
                 "plugins": {
@@ -41,11 +41,11 @@
                 }
             }
 
-    7. Have to following content into file named "tailwind.config.js"
+    7. Have to follow content into a file named "tailwind.config.js"
             
             /** @type {import('tailwindcss').Config} */
             module.exports = {
-            content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+            content: ["./src/**/*.{js,jsx,ts,tsx}"],
             theme: {
                 extend: {},
                 container: {
@@ -57,7 +57,7 @@
             }
 
 
-## To install fortawesome in react project
+## To install font awesome in react project
     1. npm install @fontawesome/free-solid-svg-icons
     2. npm install @fontawesome/react-fontawesome
 
