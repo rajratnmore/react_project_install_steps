@@ -1,8 +1,8 @@
 # react_project_install_steps
 
-# food delivery
+## food delivery
 
-## To install of food delivery project in React js there are some steps to follow
+### To install of food delivery project in React js there are some steps to follow
     1. Initialize our project folder > "git init" and push on GitHub
     2. npm init
     3. npm install -D parcel
@@ -11,7 +11,7 @@
     6. npm install react-router-dom
     7. npx parcel build index.html
 
-## To install tailwindcss in the react project
+### To install tailwindcss in the react project
     1. npm install -D tailwindcss
     2. npx tailwindcss init
     3. npm install postcss autoprefixer --save-dev
@@ -57,7 +57,7 @@
             }
 
 
-## To install font awesome in react project
+### To install font awesome in react project
     1. npm install @fontawesome/free-solid-svg-icons
     2. npm install @fontawesome/react-fontawesome
 
