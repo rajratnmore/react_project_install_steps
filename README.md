@@ -66,6 +66,20 @@
     1. npm install @fontawesome/free-solid-svg-icons
     2. npm install @fontawesome/react-fontawesome
 
+### To create a new repository on the command line
+    1. echo "# repo_name" >> README.md
+    2. git init
+    3. git add README.md
+    4. git commit -m "first commit"
+    5. git branch -M main
+    6. git remote add origin https://github.com/rajratnmore/repo_name.git
+    7. git push -u origin main
+
+### To push an existing repository from the command line
+    1. git remote add origin https://github.com/rajratnmore/repo_name.git
+    2. git branch -M main
+    3. git push -u origin main
+    
 
                 
 
