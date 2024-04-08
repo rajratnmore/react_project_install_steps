@@ -11,7 +11,7 @@
     6. npm install react-router-dom
     7. npx parcel build index.html
 
-## To install redux in react project
+### To install redux in react project
     1. npm install @reduxjs/toolkit
     2. npm install @react-redux
 
