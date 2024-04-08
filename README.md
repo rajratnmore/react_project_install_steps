@@ -11,6 +11,11 @@
     6. npm install react-router-dom
     7. npx parcel build index.html
 
+## To install redux in react project
+    1. npm install @reduxjs/toolkit
+    2. npm install @react-redux
+
+
 ### To install tailwindcss in the react project
     1. npm install -D tailwindcss
     2. npx tailwindcss init
