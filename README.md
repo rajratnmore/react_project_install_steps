@@ -25,7 +25,7 @@
 
 ### To install redux in react project
     1. npm install @reduxjs/toolkit
-    2. npm install @react-redux
+    2. npm install react-redux
     
 ### To install tailwindcss in react project
     1. npm install -D tailwindcss
@@ -82,7 +82,7 @@
 ### Redux Toolkit 
     - Install @reduxjs/toolkit and @react-redux 
         npm install @reduxjs/toolkit
-        npm install @react-redux
+        npm install react-redux
     - Build our store
     - Connect our store to our app
     - Create Slice (cart slice)
