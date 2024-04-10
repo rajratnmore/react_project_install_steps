@@ -1,5 +1,6 @@
 # react_project_install_steps
-# Food Delivery
+
+## Food Delivery
 
 ## Command to Run Project
     1. npx parcel index.html // To run a project
