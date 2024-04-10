@@ -1,13 +1,13 @@
 # react_project_install_steps
 
-## Food Delivery
+## Food Delivery (Project Name)
 
-## Command to Run Project
+### Command to Run Project
     1. npx parcel index.html // To run a project
     2. npx jest // To testing a project
     2. npx jest --init // To initialize jest
 
-## To installation of food delivery project in react js there are some steps to follow
+### To installation of food delivery project in react js there are some steps to follow
     1. Initialize our project folder > "git init" and push on github
         1. echo "# repo_name" >> README.md
         2. git init
@@ -23,11 +23,11 @@
     6. npm install react-router-dom
     7. npx parcel build index.html
 
-## To install redux in react project
+### To install redux in react project
     1. npm install @reduxjs/toolkit
     2. npm install @react-redux
     
-## To install tailwindcss in react project
+### To install tailwindcss in react project
     1. npm install -D tailwindcss
     2. npx tailwindcss init
     3. npm install postcss autoprefixer --save-dev
@@ -75,11 +75,11 @@
             }
 
 
-## To install fontawesome in react project
+### To install fontawesome in react project
     1. npm install @fontawesome/free-solid-svg-icons
     2. npm install @fontawesome/react-fontawesome
 
-## Redux Toolkit 
+### Redux Toolkit 
     - Install @reduxjs/toolkit and @react-redux 
         npm install @reduxjs/toolkit
         npm install @react-redux
@@ -89,7 +89,7 @@
     - dispatch (action)
     - Selector
 
-## To install react testing library
+### To install react testing library
     1. npm install -D @testing-library/react
     2. npm install -D jest
     3. npm install --save-dev babel-jest @babel/core @babel/preset-env (To install jest along with babel)
