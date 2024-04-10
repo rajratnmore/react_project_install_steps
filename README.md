@@ -4,6 +4,13 @@
 
 ### To install of food delivery project in React js there are some steps to follow
     1. Initialize our project folder > "git init" and push on GitHub
+        1. echo "# repo_name" >> README.md
+        2. git init
+        3. git add README.md
+        4. git commit -m "first commit"
+        5. git branch -M main
+        6. git remote add origin https://github.com/rajratnmore/repo_name.git
+        7. git push -u origin main
     2. npm init
     3. npm install -D parcel
     4. npm install react
