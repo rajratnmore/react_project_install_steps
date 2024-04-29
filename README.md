@@ -29,7 +29,7 @@
 
     OR YOU CAN INSTALL REACT PORJECT THROUGH THE COMMAND
         1.  npx create-react-app 'project_name'
-        2.  npm install react-router-dom
+        2.  npm install -D react-router-dom
 
 ### To install redux in react project
 
