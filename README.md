@@ -1,7 +1,6 @@
 # react_project_install_steps
 
 ## webpage design color sites
-
     1. https://htmlcolorcodes.com/color-picker/
     2. https://tailwindcolor.com/
 
@@ -30,12 +29,13 @@
 
     OR YOU CAN INSTALL REACT PORJECT THROUGH THE COMMAND
         1.  npx create-react-app 'project_name'
+        2.  npm install react-router-dom
 
 ### To install redux in react project
 
     - Install @reduxjs/toolkit and @react-redux
-        1. npm install @reduxjs/toolkit
-        2. npm install react-redux
+        1. npm install -D @reduxjs/toolkit
+        2. npm install -D react-redux
     
 ### To install tailwindcss in react project
     1. npm install -D tailwindcss
