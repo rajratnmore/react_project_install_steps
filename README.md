@@ -1,5 +1,10 @@
 # react_project_install_steps
 
+## webpage design color sites
+
+    1. https://htmlcolorcodes.com/color-picker/
+    2. https://tailwindcolor.com/
+
 ## Food Delivery (Project Name)
 
 ### Command to Run Project
@@ -23,9 +28,14 @@
     6. npm install react-router-dom
     7. npx parcel build index.html
 
+    OR YOU CAN INSTALL REACT PORJECT THROUGH THE COMMAND
+        1.  npx create-react-app 'project_name'
+
 ### To install redux in react project
-    1. npm install @reduxjs/toolkit
-    2. npm install react-redux
+
+    - Install @reduxjs/toolkit and @react-redux
+        1. npm install @reduxjs/toolkit
+        2. npm install react-redux
     
 ### To install tailwindcss in react project
     1. npm install -D tailwindcss
@@ -78,16 +88,6 @@
 ### To install fontawesome in react project
     1. npm install @fontawesome/free-solid-svg-icons
     2. npm install @fontawesome/react-fontawesome
-
-### Redux Toolkit 
-    - Install @reduxjs/toolkit and @react-redux 
-        npm install @reduxjs/toolkit
-        npm install react-redux
-    - Build our store
-    - Connect our store to our app
-    - Create Slice (cart slice)
-    - dispatch (action)
-    - Selector
 
 ### To install react testing library
     1. npm install -D @testing-library/react
