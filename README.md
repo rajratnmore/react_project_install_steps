@@ -145,6 +145,23 @@
     1. git remote add origin https://github.com/rajratnmore/repo_name.git
     2. git branch -M main
     3. git push -u origin main
+
+
+### To host react project on firebase
+    1. npm install firebase
+        2. create firebase.js inside utils folder and paste code which has been given by firebase site just below
+            above 'npm install firebase' command
+        3. npm install -g firebase-tools  (To run this command first open your cmd in run as administator mode )
+        4. firebase login
+        5. firebase init
+            1. choose - Hosting: Configure files for Firebase Hosting and (optionally) set up Github Action deploys
+            2. use existing project which is on firebase and choose this project 
+            3. type 'build' : What do you want to use as your public directory?(public) 'build'
+            4. Configure as single page app (rewrite all urls to /index.html)? (y/N) 'No'
+            5. Set up automatic build and deploys with Githib? (y/N) 'No' 
+        6. npm run build
+        7. firebase deploy
+        And now you are ready to go your hosted site
     
 
 
