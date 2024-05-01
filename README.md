@@ -149,16 +149,24 @@
 
 ### To host react project on firebase
     1. npm install firebase
-        2. create firebase.js inside utils folder and paste code which has been given by firebase site just below
+        2. create 'firebase.js' inside utils folder and paste code which has been given by firebase site just below
             above 'npm install firebase' command
+            and also copy two line code in 'firebase.js' file in netflixGPT project only: (Remember below two line put in 'firebase.js' file only in NetflixGPT project.
+                1. import { getAuth } from "firebase/auth"; // put this top of firebase.js file
+                2. export const auth = getAuth(); // Put this at last line into firebase.js file
+            
         3. npm install -g firebase-tools  (To run this command first open your cmd in run as administator mode )
         4. firebase login
         5. firebase init
-            1. choose - Hosting: Configure files for Firebase Hosting and (optionally) set up Github Action deploys
-            2. use existing project which is on firebase and choose this project 
-            3. type 'build' : What do you want to use as your public directory?(public) 'build'
-            4. Configure as single page app (rewrite all urls to /index.html)? (y/N) 'No'
-            5. Set up automatic build and deploys with Githib? (y/N) 'No' 
+            1. Are you ready to proceed? (Y/n): Y
+            2. (*) Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+            3.  Please select an option: (Use arrow keys)
+                > Use an existing project
+            4. Select a default Firebase project for this directory:
+                > netflixgpt-openai-00 (NetflixGPT)
+            5. What do you want to use as your public directory? (public): build
+            6. Configure as a single-page app (rewrite all urls to /index.html)? (y/N): No
+            7. Set up automatic builds and deploys with GitHub? (y/N): No
         6. npm run build
         7. firebase deploy
         And now you are ready to go your hosted site
