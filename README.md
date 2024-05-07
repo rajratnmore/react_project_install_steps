@@ -6,6 +6,11 @@
 
 ## Food Delivery (Project Name)
 
+### install some extensions in vs code to auto tailwindcss classes and css classes suggestions
+    1. tailwind css intellisense
+    2. intellisense for css class names in HTML
+    3. Prettier - Code formatter
+
 ### Command to Run Project
     1. npx parcel index.html // To run a project
     2. npx jest // To testing a project
