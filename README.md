@@ -4,6 +4,10 @@
     1. https://htmlcolorcodes.com/color-picker/
     2. https://tailwindcolor.com/
 
+## To generate fake data for API
+
+    1. https://www.mockaroo.com/
+
 ## Food Delivery (Project Name)
 
 ### install some extensions in vs code to auto tailwindcss classes and css classes suggestions
