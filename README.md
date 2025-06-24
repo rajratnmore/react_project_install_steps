@@ -5,7 +5,6 @@
     2. https://tailwindcolor.com/
 
 ## To generate fake data for API
-
     1. https://www.mockaroo.com/
 
 ## Food Delivery (Project Name)
